@@ -9,9 +9,9 @@ import socket
 
 
 # Raspberry Pi pin configuration:
-RST = 27
-DC = 25
-BL = 18
+RST = 13
+DC = 22
+BL = 6
 bus = 0 
 device = 0 
 logging.basicConfig(level=logging.DEBUG)
